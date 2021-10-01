@@ -1,6 +1,6 @@
 # Sellpoint
 
-Sellpoint is a website that allows users to post advertisements of their products. 
+Sellpoint is a website that allows users to post advertisements of their products. This is a project created for TDT4140 by group 61.
 
 ## To run the project:
 **python manage.py runserver** in the folder that contains the manage.py file.
@@ -12,7 +12,7 @@ A **requirements.txt** file is a file that lists all of the modules needed for t
 
 To activate venv i gitpod: **source venv/Scripts/activate**
 
-### Kjøre tester
+## Kjøre tester
 For å kjøre tester og generere report:
 **coverage run --source='app-navn-her' manage.py test && coverage report && coverage html**
 Reports blir genrert i htmlcov-mappe
